@@ -23,7 +23,11 @@ P:
 
 
 let doubled = arr => {
-    return arr.map(element => element*2)
+    if(arr.length===0||Array.isArray(arr)===false){
+        console.log('Array is invalid')
+    }
+    else{
+    return arr.map(element => element*2)}
 }
 
 
