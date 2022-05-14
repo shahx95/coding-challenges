@@ -10,7 +10,7 @@ Language/s used: <img src="https://img.shields.io/static/v1?label=|&message=JAVA
 
 Each morning, I do atleast one coding challenge. 
 
-## Optimizations
+## Optimizations:
 
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability. I clean up the code after getting it to work. Break up big functions into multiple smaller functions, possibly rename variables, add comments, etc.
 
