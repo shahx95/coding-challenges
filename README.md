@@ -2,7 +2,7 @@
 
 ![alt tag](https://www.codewars.com/users/shahx95/badges/large)
 
-A repository filled with codewars challenges (kata). Top 7 percentile on the global leaderboard. Pushing a solved challenge every day.
+A repository filled with codewars challenges (kata). Top 6 percentile on the global leaderboard. Pushing a solved challenge every day.
 
 ## Training:
 
@@ -12,7 +12,7 @@ Each morning, I do atleast one coding challenge.
 
 ## Optimizations:
 
-I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability. I clean up the code after getting it to work. Break up big functions into multiple smaller functions, possibly rename variables, add comments, etc.
+I consistently refactor and optimize my code, keeping efficiency and readability in mind. I clean up the code after getting it to work. Break up big functions into multiple smaller functions, possibly rename variables, add comments, etc.
 
 ## Lessons Learned:
 
