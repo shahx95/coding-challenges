@@ -16,6 +16,6 @@ I consistently refactor and optimize my code, keeping efficiency and readability
 
 ## Lessons Learned:
 
-Doing CodeWars daily has exposed me to coding problems I might not have encountered otherwise. This allowed me to develop thinking processes to improve my programming ability. Additionally, I gain insight into the possibilities of approaching and solving a problem by seeing what other users have done. Learning never ends.
+Doing CodeWars daily has exposed me to coding problems I might not have encountered otherwise. This allowed me to develop thinking processes to improve my programming ability. Additionally, I gain insight into the possibilities of approaching and solving a problem by analysing the solutions submitted by other users. Learning never ends.
 
 
