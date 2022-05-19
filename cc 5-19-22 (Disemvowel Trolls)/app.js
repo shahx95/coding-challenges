@@ -39,3 +39,5 @@ function disemvowel(str) {
     return str;
   }
 
+// single line for when you feel fancy:   
+//      return str.split('').filter( element => "aeiouAEIOU".includes(element)=== false ).join('')
