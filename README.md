@@ -2,7 +2,7 @@
 
 ![alt tag](https://www.codewars.com/users/shahx95/badges/large)
 
-A repository filled with codewars challenges (kata). Top 6 percentile on the global leaderboard. Pushing a solved challenge every day.
+A repository filled with codewars challenges (kata). Top 4 percentile on the global leaderboard. Pushing a solved challenge every day.
 
 ## Training:
 
