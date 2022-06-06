@@ -38,5 +38,6 @@ var number = function(busStops){
    return peopleInBus 
   }
 
-
+//solving with reduce
+let number = busStops => busStops.reduce( (total, currentVal) => total+currentVal[0]-currentVal[1], 0)
   
