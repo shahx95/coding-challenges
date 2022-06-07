@@ -30,3 +30,16 @@ function reverseWords(str) {
   }
 
 
+//solve using a loop?
+/*
+"This is an example"
+Split into an array of words ['This', 'is', 'an', 'example']
+Use map to loop over each word:
+  Split "This"
+  Reverse "sihT"
+  return
+Join the map with a space delimiter
+return  
+
+return str.split(' ').map(element => element.split('').reverse().join('')).join(' ')
+*/  
