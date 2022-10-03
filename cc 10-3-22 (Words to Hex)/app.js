@@ -34,18 +34,35 @@ P:
 */
 
 //solution
+
 function wordsToHex(words) {
+   
     return words.split(" ").map(word => {
       let converted = "#"
-      if(word.length<3){
-        for(let letter of word){
-          converted += letter.charCodeAt(0).toString(16)
+      for(let i=0;i<3;i++){
+        if(word[i]){
+          converted += word[i].charCodeAt(0).toString(16)
         }
-        converted += "00".repeat((3-word.length))
-      }
-      else{
-        converted += word[0].charCodeAt(0).toString(16) + word[1].charCodeAt(0).toString(16) + word[2].charCodeAt(0).toString(16)
+        else{
+          converted += "00"
+        }
       }
       return converted
     })
   }
+
+// function wordsToHex(words) {
+//     return words.split(" ").map(word => {
+//       let converted = "#"
+//       if(word.length<3){
+//         for(let letter of word){
+//           converted += letter.charCodeAt(0).toString(16)
+//         }
+//         converted += "00".repeat((3-word.length))
+//       }
+//       else{
+//         converted += word[0].charCodeAt(0).toString(16) + word[1].charCodeAt(0).toString(16) + word[2].charCodeAt(0).toString(16)
+//       }
+//       return converted
+//     })
+//   }
