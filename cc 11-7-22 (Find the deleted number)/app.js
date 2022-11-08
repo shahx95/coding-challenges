@@ -23,4 +23,15 @@ P:
 //solution
 function findDeletedNumber(arr1,arr2){
     return arr1.filter(element => arr2.indexOf(element) === -1)[0] || 0
+    // filter with indexOf has complexity of O(n^2)
+}
+
+//a better solution
+function findDeletedNum(arr1,arr2){
+    //if arrays are of equal length, there is no deleted so return 0
+    if(arr1.length === arr2.length){return 0}
+    else{ //reduce both the argument arrays and return their difference
+        return arr1.reduce((total,current) => total+current, 0) - arr2.reduce((total,current) => total+current, 0)
+    }
+    //now complexity reduces to constant time O(1) if base case is true, else O(n) 
 }
