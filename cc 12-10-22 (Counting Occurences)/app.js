@@ -18,6 +18,12 @@ function countChars(str){
     
   }
   
+// another way using reduce and arrow func
+const countChars = str => [...str].reduce((total,current) => {
+    total[current] = (total[current] || 0) + 1
+    return total 
+}, {})
+
   console.log(countChars('aba'),"{'a': 2, 'b': 1}")
   console.log(countChars('dog'),"{'d': 1, 'o': 1, 'g': 1}")
   console.log(countChars('abba'),"{'a': 2, 'b': 2}")
