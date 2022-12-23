@@ -13,10 +13,13 @@ xbonacci {1,1} produces the Fibonacci sequence
 
 //quick bruteforce solution - may optimise later
 function Xbonacci(signature,n){
+    let len = signature.length
+    
+    if(n<len){return signature.slice(0,n)} 
 
     //[0,1],10
     let arr = signature.slice() //[0,1]
-    let len = signature.length
+    
     //i=2 i<10 
     //sum = arr.slice(0,2) => arr[0] + arr[1]
     //i=3
@@ -29,5 +32,5 @@ function Xbonacci(signature,n){
     //   console.log(arr.slice(i-len,i))
       arr.push(sum)
     }
-    return arr.slice(0,n)
+    return arr.slice(0,n) 
   }
