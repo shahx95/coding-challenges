@@ -2,7 +2,7 @@
 
 ![alt tag](https://www.codewars.com/users/shahx95/badges/large)
 
-A repository filled with codewars challenges (kata). Top 1 percentile on the global leaderboard. Pushing a solved challenge every day.
+A repository filled with coding challenges from codewars, leetcode, etc. Top 1 percentile on the global leaderboard in CodeWars. Pushing a solved challenge every day.
 
 ## Training:
 
@@ -16,6 +16,6 @@ I consistently refactor and optimize my code, keeping efficiency and readability
 
 ## Lessons Learned:
 
-Doing CodeWars daily has exposed me to coding problems I might not have encountered otherwise. This allowed me to develop thinking processes to improve my programming ability. Additionally, I gain insight into the possibilities of approaching and solving a problem by analysing the solutions submitted by other users. Learning never ends.
+Doing coding challenges daily has exposed me to coding problems I might not have encountered otherwise. This allowed me to develop thinking processes to improve my programming ability. Additionally, I gain insight into the possibilities of approaching and solving a problem by analysing the solutions submitted by other users. Learning never ends.
 
 
