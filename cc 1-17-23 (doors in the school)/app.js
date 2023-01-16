@@ -6,6 +6,7 @@ When these strange children pass by some doors they change their status (i.e. Op
 You need to count how many doors are left opened after all the students have come.
 */
 
+
 //examples
     console.log(doors(5), 2);
     console.log(doors(10), 3);
@@ -27,3 +28,16 @@ function doors(n){
     // return length of true values in array
      return arr.filter(status => status===true).length
   }
+
+//solution - improved solution
+function doors2(n){
+  //doors that are left open are only divisible by one number - the square root of the door number.
+  //look for perfect squares
+  let count = 0
+  // if sqrt number % 1 === 0, then we have perfect square
+  for(let i=1;i<=n;i++){
+    if(Math.sqrt(i)%1===0){count++}
+  }
+  // return count
+   return count
+}  
