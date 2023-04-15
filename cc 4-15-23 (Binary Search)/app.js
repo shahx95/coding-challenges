@@ -25,7 +25,7 @@ function binarySearch(arr,target){
     let right = arr.length-1
 
     while(left <= right){
-        let midpoint =  Math.round((left + right) / 2)
+        let midpoint =  Math.round((left + right) / 2) //potential overflow for very large arrays?
         // console.log(midpoint)
         if(arr[midpoint] > target){
             right = midpoint - 1
@@ -33,7 +33,7 @@ function binarySearch(arr,target){
         else if(arr[midpoint] < target){
             left = midpoint + 1
         }
-        else return midpoint
+        else return midpoint //number exists
     }
 
     return -1
