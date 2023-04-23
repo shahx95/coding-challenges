@@ -9,7 +9,7 @@ function hasUniqueChars(str){
         newArr.push(str[i]);
       }
     }
-    if (newArr.length > 0){
+    if (newArr.length >= 1){
       return false;
     } else {
       return true;
