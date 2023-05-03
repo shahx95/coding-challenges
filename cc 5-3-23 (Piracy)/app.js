@@ -21,7 +21,7 @@ titanic.isWorthIt() // return false
 /* 
 We will be accepting integers as input for draft and crew
 return a boolean value 
-E: 
+Example: 
     titanic = new Ship(0,0) //returns false on isWorthIt method
     carnival = new Ship(100,150) //returns false on isWorthIt method
     queen = new Ship(1000,250) //returns true on isWorthIt method 
