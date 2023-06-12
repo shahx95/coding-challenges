@@ -6,6 +6,7 @@ For example, given the input array [1, 2, 3, 4, 2, 5, 6, 1], the function should
 
 //example
 console.log(findDuplicates([1, 2, 3, 4, 2, 5, 6, 1])); // Output: [2, 1]
+console.log(findDuplicates([0,0])); // Output: [0]
 
 //pseudocode
 //use a hash object to keep track of numbers encountered before
