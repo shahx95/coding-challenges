@@ -35,7 +35,7 @@ function validParentheses(str){
     for(let character of str){
         //if closing bracket
         if(parenthesesObj[character]){
-            if(stack.length>0 && parenthesesObj[character]){
+            if(stack.length>0 && parenthesesObj[character] === stack[stack.length-1]){
                 stack.pop()
             } else { //if closing bracket comes before opening it will never be valid
                 return false
