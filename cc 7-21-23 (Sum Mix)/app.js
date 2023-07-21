@@ -11,5 +11,6 @@ sumArray([-1, 0, 1]); // Output: 0
 
 //solution
 function sumArray(arr){
-    return arr.reduce((total,current)=>total+current,0) //time compelxity of O(n) space complexity of O(1)
+    return arr.reduce((total,current)=>total+current,0) 
+    //time compelxity of O(n) space complexity of O(1)
 }
